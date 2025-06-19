@@ -11,7 +11,7 @@ def main():
                 continue
             break
         except ValueError:
-            print("Invalid input. Please enter two numbers separated by space, comma, or x/* (e.g., '3 5', '3x5', '3,5')")
+            print("Invalid input. Please enter two numbers separated by space")
 
     # Initialize grid
     grid = [[random.randint(0, 1) for _ in range(y)] for _ in range(x)]
